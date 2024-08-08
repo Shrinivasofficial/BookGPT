@@ -1,3 +1,4 @@
+// src/components/Navbar.jsx
 import React from 'react';
 
 export const Navbar = () => {
@@ -54,3 +55,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;

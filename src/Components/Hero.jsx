@@ -13,6 +13,24 @@ export const Hero = () => {
         Chat Now
       </button>
      
+      <div className='mt-16 sm:hidden'>
+        <h2 className='text-3xl font-bold'>Samples</h2>
+        <label htmlFor='tabs' className='sr-only'>
+          Select Your Genre
+        </label>
+        <select id='tabs' className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-chocolate-700 focus:border-chocolate-400 w-full p-2.5'>
+          <option>Fiction</option>
+          <option>Non-Fiction</option>
+          <option>Thriller</option>
+          <option>Self-Help</option>
+          <option>Love</option>
+          <option>Health</option>
+        </select>
+      </div>
+     
+      <div className='mt-12'>
+     
+      </div>
     </div>
   );
 };
